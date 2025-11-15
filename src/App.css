@@ -1,0 +1,61 @@
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.game-area {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.player-throw img {
+  width: 120px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.player-throw img:hover {
+  transform: scale(1.1);
+}
+
+.selected {
+  border: 3px solid #4caf50;
+  border-radius: 10px;
+}
+
+
+.computer-throw img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+
+.result-display h2 {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.scoreboard {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Layout */
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.game-area {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
